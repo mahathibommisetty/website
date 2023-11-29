@@ -37,10 +37,5 @@ int main() {
         max = num3; 
     }
     printf("The maximum number is %d\n", max);
-    return 0;
 }
 """)
-
-
-
-st.stars()
