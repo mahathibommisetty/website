@@ -1,6 +1,8 @@
 import streamlit as st
 st.set_page_config(layout='wide')
 st.title('c programming')
+st.sidebar.subheader("Sample")
+st.sidebar.text_input("Enter a name")
 st.subheader('factorial')
 st.code("""
 #include <stdio.h>
