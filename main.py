@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(layout='wide')
 st.title('c programming')
-st.write("factorial")
+st.subheader('factorial')
 st.code("""
 #include <stdio.h>
 int factorial(int n) {
