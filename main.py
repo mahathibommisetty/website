@@ -36,6 +36,6 @@ int main() {
     if (num3 > max) {
         max = num3; 
     }
-    printf("The maximum number is %d\n", max);
+    printf("The maximum number is %d\n", max); 
 }
 """)
