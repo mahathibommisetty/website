@@ -5,4 +5,4 @@ st.write("hello")
 st.code('for i in range(8): foo()')
 st.toggle("Enable")
 st.camera_input("enter the camera")
-st.elements.text_input(...)  # Appears above "Hello".
+st.snow()
