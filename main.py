@@ -6,7 +6,7 @@ st.sidebar.text_input("Enter a name")
 st.subheader('factorial')
 st.code("""
 #include <stdio.h>
-int factorial(int n) { 
+int factorial(int n) {
     if (n == 0) {
         return 1;
     } else {
