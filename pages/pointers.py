@@ -1,7 +1,8 @@
 import streamlit as st
 st.set_page_config(layout='wide')
 st.title('c programming')
-st.subheader("pointers to print numbers")
+st.header("pointers")
+st.subheader("print numbers")
 st.code("""
 
 #include <stdio.h>
