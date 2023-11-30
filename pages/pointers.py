@@ -6,7 +6,7 @@ tab1, tab2, tab3 = st.tabs(["print numbers", "sum of 2 numbers", "swapping"])
 with tab1:
   st.subheader("print numbers")
   st.code("""
-    #include <stdio.h>
+    #include <stdio.h> 
     int main(){
     int num=42;
     int *ptr= &num;
