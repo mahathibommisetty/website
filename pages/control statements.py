@@ -82,7 +82,7 @@ with tab3:
         """)
 
 
-      with tab7:
+    with tab7:
         st.subheader("tree 2")
         st.code("""
         #include<stdio.h>
@@ -94,7 +94,7 @@ with tab3:
         printf("/n")
         }
         }
-      """)
+    """)
 
 
       with tab8:
