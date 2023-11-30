@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(layout='wide')
 st.title('c programming')
-st.subheader("Sample")
+st.subheader("display name")
 st.code("""
         #include<stdio.h>
         int main(){
