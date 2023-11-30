@@ -67,19 +67,18 @@ with tab2:
 with tab3:
     st.header(" for-loop statement")
     tab6, tab7, tab8 =(["tree 1", "tree 2", "tree 3"])
-
     with tab6:
-        st.subheader("tree 1")
-        st.code("""
-        #include<stdio.h>
-        int main()
-        for(int i=0; i<3;i++){
-        for(int j=0;j<=i;j++){
-        printf("*");
-        }
-        printf("/n")
-        }
-        }
+      st.subheader("tree 1")
+      st.code("""
+      #include<stdio.h>
+      int main()
+      for(int i=0; i<3;i++){
+      for(int j=0;j<=i;j++){
+      printf("*");
+      }
+      printf("/n")
+      }
+    }
     """)
 
 
