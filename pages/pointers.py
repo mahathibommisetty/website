@@ -2,9 +2,9 @@ import streamlit as st
 st.set_page_config(layout='wide')
 st.title('c programming')
 st.title("pointers")
-tab1, tab2, tab3 = st.tabs(["print numbers", "sum of 2 numbers", "swapping"])
+tab1, tab2, tab3 = st.tabs(["arithematic", "sum of 2 numbers", "swapping"])
 with tab1:
-  st.subheader("print numbers")
+  st.subheader("arithematic")
   st.code("""
     #include <stdio.h> 
     int main(){
