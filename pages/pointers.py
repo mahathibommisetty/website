@@ -2,9 +2,10 @@ import streamlit as st
 st.set_page_config(layout='wide')
 st.title('c programming')
 st.title("pointers")
+tab1, tab2, tab3 = st.tabs(["print numbers", "sum of 2 numbers", "swapping"])
+with tab1:
 st.subheader("print numbers")
 st.code("""
-
 #include <stdio.h>
 int main(){
     int num=42;
@@ -25,7 +26,7 @@ return 0;
  """)
 
 
-
+with tab2:
 st.subheader("sum of 2 numbers")
 st.code("""
 #include <stdio.h>
@@ -42,8 +43,10 @@ int main(){
 
 
 
+with tab3:
 st.header("swapping")
-
+tab4, tab5,tab6 =st.tabs(["using formula", "using pointers", "using functions"])
+with tab4:
 st.subheader("swapping of 2 numbers using formula")
 st.code("""
 #include <stdio.h>
@@ -61,6 +64,7 @@ int main() {
 """)
 
 
+with tab5:
 st.subheader("swapping of 2 numbers using pointers")
 st.code("""
 #include <stdio.h>
@@ -80,6 +84,8 @@ int main() {
 """)
 
 
+
+with tab6:
 st.subheader("swapping of 2 numbers using functions")
 st.code("""
 #include <stdio.h>
