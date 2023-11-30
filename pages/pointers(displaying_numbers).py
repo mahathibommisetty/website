@@ -26,7 +26,7 @@ return 0;
 
 
 
- st.subheader("pointers to print numbers")
+st.subheader("pointers to print numbers")
 st.code("""
 #include <stdio.h>
 int main(){
@@ -39,4 +39,5 @@ int arr[5] = {1,2,3,4,5};
 return 0;
 
 }
- """)
+
+""")

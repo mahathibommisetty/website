@@ -11,6 +11,3 @@ st.code("""
         printf("your name is %s",name);
         }
         """)
-[theme]
-base="light"
-primaryColor="blue"
