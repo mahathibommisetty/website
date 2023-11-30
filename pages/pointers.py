@@ -41,7 +41,7 @@ with tab2:
 
 
 
-with tab3:st.header("swapping")
+ with tab3:st.header("swapping")
 tab4, tab5,tab6 =st.tabs(["using formula", "using pointers", "using functions"])
 with tab4:
     st.subheader("swapping of 2 numbers using formula")
