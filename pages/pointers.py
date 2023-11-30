@@ -41,9 +41,9 @@ with tab2:
 
 
 
- with tab3:st.header("swapping")
- tab4, tab5,tab6 =st.tabs(["using formula", "using pointers", "using functions"])
- with tab4:
+with tab3:st.header("swapping")
+tab4, tab5,tab6 =st.tabs(["using formula", "using pointers", "using functions"])
+with tab4:
     st.subheader("swapping of 2 numbers using formula")
     st.code("""
     #include <stdio.h>
@@ -62,8 +62,8 @@ with tab2:
 
 
 with tab5:
-   st.subheader("swapping of 2 numbers using pointers")
-   st.code("""
+ st.subheader("swapping of 2 numbers using pointers")
+ st.code("""
     #include <stdio.h>
     int main() {
     int num1, num2, temp;
