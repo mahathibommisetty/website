@@ -4,8 +4,8 @@ st.title('c programming')
 st.title("pointers")
 tab1, tab2, tab3 = st.tabs(["print numbers", "sum of 2 numbers", "swapping"])
 with tab1:
- st.subheader("print numbers")
-    st.code("""
+  st.subheader("print numbers")
+  st.code("""
     #include <stdio.h>
     int main(){
     int num=42;
@@ -19,16 +19,14 @@ with tab1:
     for (int i=0; i<5; ++i){
         printf("element %d: %d\n", i+1, *(p+i));
         }
-return 0;
-
-}
-
- """)
+    return 0;
+  }
+  """)
 
 
 with tab2:
- st.subheader("sum of 2 numbers")
- st.code("""
+  st.subheader("sum of 2 numbers")
+  st.code("""
     #include <stdio.h>
     int main(){
    int first, second, *p, *q, sum;
@@ -38,16 +36,16 @@ with tab2:
    q = &second;
    sum = *p + *q;
    printf("Sum of the numbers = %d\n", sum);
-}
+ }
 """)
 
 
 
-with tab3:st.header("swapping")
-tab4, tab5,tab6 =st.tabs(["using formula", "using pointers", "using functions"])
-with tab4:
-   st.subheader("swapping of 2 numbers using formula")
-   st.code("""
+ with tab3:st.header("swapping")
+ tab4, tab5,tab6 =st.tabs(["using formula", "using pointers", "using functions"])
+ with tab4:
+    st.subheader("swapping of 2 numbers using formula")
+    st.code("""
     #include <stdio.h>
     int main() {
     int a, b;
@@ -59,8 +57,8 @@ with tab4:
     a = a - b;
     printf("After swapping: a = %d, b = %d\n", a, b);
    return 0;
-}
-""")
+ }
+ """)
 
 
 with tab5:
