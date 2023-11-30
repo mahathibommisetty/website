@@ -41,6 +41,7 @@ int main(){
 
 
 
+st.header("swapping")
 
 st.subheader("swapping of 2 numbers using formula")
 st.code("""
