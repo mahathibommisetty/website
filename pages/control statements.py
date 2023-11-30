@@ -2,9 +2,9 @@ import streamlit as st
 st.set_page_config(layout='wide')
 st.title("c programming")
 st.header("control statements")
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["if statement", "if-else statement", "for-loop statement", "while-loop statement", "switch statement"])
+tab1, tab2, tab3, tab4 = st.tabs(["if-else statement", "for-loop statement", "while-loop statement", "switch statement"])
 
-with tab2:
+with tab1:
     st.subheader(" if-else statement")
     st.code("""
     #include<stdio.h>
@@ -21,10 +21,10 @@ with tab2:
     """)
 
 
-with tab3:
+with tab2:
     st.header(" for-loop statement")
-    tab6, tab7, tab8 =(["tree 1", "tree 2", "tree 3"])
-    with tab6:
+    tab5, tab6, tab7 =(["tree 1", "tree 2", "tree 3"])
+    with tab5:
        st.subheader("tree 1")
        st.code("""
           #include<stdio.h>
@@ -39,37 +39,37 @@ with tab3:
     """)
 
 
-    with tab7:
-        st.subheader("tree 2")
-        st.code("""
-        #include<stdio.h>
-        int main()
-        for(int j=0; j<3;j++){
-        for(int i=0;i<=j;i++){
-        printf("*");
-        }
-        printf("/n")
-        }
-        }
-    """)
+with tab6:
+    st.subheader("tree 2")
+    st.code("""
+    #include<stdio.h>
+    int main()
+    for(int j=0; j<3;j++){
+    for(int i=0;i<=j;i++){
+    printf("*");
+    }
+    printf("/n")
+    }
+    }
+""")
 
 
-    with tab8:
-        st.subheader(" tree 3")
-        st.code("""
-        #include<stdio.h>
-        int main()
-        for(int i=5; i>0;i--){
-        for(int j=i;j>0;j--){
-        printf("*");
-        }
-        printf("/n")
-        }
-        }
-    """)
+with tab7:
+    st.subheader(" tree 3")
+    st.code("""
+    #include<stdio.h>
+    int main()
+    for(int i=5; i>0;i--){
+    for(int j=i;j>0;j--){
+    printf("*");
+    }
+    printf("/n")
+    }
+    }
+""")
 
 
-with tab4:
+with tab3:
     st.subheader(" while statement")
     st.code("""
     #include<stdio.h>
@@ -83,9 +83,9 @@ with tab4:
       }
      }
     }
-    """)
+""")
 
-with tab5:
+with tab4:
   st.subheader("switch statement")
   st.code("""
   #include<stdio.h>
@@ -109,9 +109,3 @@ with tab5:
 }
 }
 """)
-
-
-
-
-
-
