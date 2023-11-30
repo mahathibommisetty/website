@@ -14,7 +14,6 @@ with tab5:
     scanf("%d",&num1);
     printf("enter number2");
     scanf("%d",&num2);
-
     switch(operator){
     case'+':printf("addition is %d",(num2+num1));
     break;
@@ -44,7 +43,7 @@ with tab4:
       }
      }
     }
-         """)
+    """)
 
 
 with tab2:
