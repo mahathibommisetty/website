@@ -21,7 +21,7 @@ if st.button("Add"):
     conn.commit()
     st.toast("Added Successfully")
     st.success("Added Successfully")
-    st.
+
 
 
 

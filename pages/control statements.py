@@ -1,8 +1,10 @@
 import streamlit as st
+
 st.set_page_config(layout='wide')
 st.title("c programming")
 st.header("control statements")
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["if-else statement", "for-loop statement", "while-loop statement", "do-while", "switch statement"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(
+    ["if-else statement", "for-loop statement", "while-loop statement", "do-while", "switch statement"])
 
 with tab1:
     st.header(" if-else statement")
@@ -20,7 +22,6 @@ with tab1:
         }
         }
     """)
-
 
 with tab3:
     st.subheader(" while statement")
@@ -57,8 +58,8 @@ with tab4:
 """)
 
 with tab5:
-  st.subheader("switch statement")
-  st.code("""
+    st.subheader("switch statement")
+    st.code("""
   #include<stdio.h>
   int main(){
     int num1,num2;
@@ -88,13 +89,12 @@ with tab5:
 }
 """)
 
-
 with tab2:
     st.header(" for-loop statement")
-    tab6, tab7, tab8, tab9 =(["tree 1", "tree 2", "tree 3", "length of array"])
+    tab6, tab7, tab8, tab9 = (["tree 1", "tree 2", "tree 3", "length of array"])
     with tab6:
-       st.subheader("tree 1")
-       st.code("""
+        st.subheader("tree 1")
+        st.code("""
           #include<stdio.h>
           int main(){
           for(int i=0; i<3;i++){
@@ -105,7 +105,6 @@ with tab2:
           }
         }
     """)
-
 
     with tab7:
         st.subheader("tree 2")
@@ -120,7 +119,6 @@ with tab2:
         }
         }
     """)
-
 
     with tab8:
         st.subheader(" tree 3")
@@ -137,8 +135,8 @@ with tab2:
     """)
 
     with tab9:
-       st.subheader("length of array")
-       st.code("""
+        st.subheader("length of array")
+        st.code("""
        #include<studio.h>
        int main(){
              int len;
